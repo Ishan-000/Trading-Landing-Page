@@ -5,7 +5,6 @@ import SectionTag from "../ui/shared/SectionTag";
 import AnimatedCounter from "../ui/shared/AnimatedCounter";
 import GlowButton from "../ui/shared/GlowButton";
 import { ArrowRight } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 const PayoutsSection = () => {
   const headingRef = useRef<HTMLHeadingElement>(null);
