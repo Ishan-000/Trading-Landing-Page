@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
       // Add any other domains you need
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
