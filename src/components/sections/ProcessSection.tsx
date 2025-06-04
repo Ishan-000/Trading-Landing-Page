@@ -142,7 +142,7 @@ const ProcessSection = () => {
 
         {/* Timeline Container */}
         <div className="w-full max-w-lg md:max-w-xl px-4"> {/* Adjusted max-width for timeline */}
-            {timelineData.map((item, index) => (
+            {timelineData.map((item) => (
               <TimelineItem
                 key={item.stepNumber}
                 stepNumber={item.stepNumber}
